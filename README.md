@@ -107,14 +107,7 @@ Para un Sistema de Gestión de Asociados desarrollado en .NET 10 en formato de C
 
 <img width="630" height="729" alt="5fbfe74e-338a-481e-8a45-335476d991ad" src="https://github.com/user-attachments/assets/04acb9f4-b703-4abb-a381-0919de8fcfcf" />
 
-
-### Módulo 11: Historial de Movimientos
-
-<img width="630" height="729" alt="5fbfe74e-338a-481e-8a45-335476d991ad" src="https://github.com/user-attachments/assets/1798dc36-4984-4081-b553-0d66dfb07531" />
-
-
 <img width="630" height="896" alt="1fae65fc-0f6c-4567-aad6-a294c7f352c9" src="https://github.com/user-attachments/assets/4d5cb581-8237-40b8-9b1f-bdd3b0d45df9" />
-
 
 <img width="630" height="866" alt="d8b3a375-1081-42b6-82a3-233f062dc3a6" src="https://github.com/user-attachments/assets/127a1205-5e60-494c-9bc3-7846ecbe5c99" />
 
@@ -123,6 +116,7 @@ Para un Sistema de Gestión de Asociados desarrollado en .NET 10 en formato de C
 <img width="654" height="719" alt="a3bb4c95-674f-4dbc-9e88-8f589b1f4698" src="https://github.com/user-attachments/assets/1e0553e0-4c50-48b2-8b10-53686f9b92d9" />
 
 ### Ventanas Emergentes (Modales para Depósito / Retiro)
+
 #### Modal de Consignación
 ```
 +----------------------------------------------------+
