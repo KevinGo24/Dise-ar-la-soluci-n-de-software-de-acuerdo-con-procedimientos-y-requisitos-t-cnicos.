@@ -73,7 +73,7 @@ RNF-07: Formateo estandarizado de valores numéricos y fechas en los reportes e 
 Para un Sistema de Gestión de Asociados desarrollado en .NET 10 en formato de Consola, la arquitectura ideal es una Arquitectura en Capas (Layered / Clean Architecture simplificada). Esta estructura separa las responsabilidades del menú interactivo, la lógica de negocio del fondo/cooperativa y la persistencia de datos.
 
 ## Arbol geneologico del proyecto
-``
+```
 ── PerformanceTest
 │   ├── Interface
 │   │   └── IMethods.cs
