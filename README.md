@@ -23,29 +23,29 @@ Módulo de Reportes Gerenciales: Genera balances consolidados, métricas de asoc
 
 Gestión de Asociados
 
-RF-01 (Registro): El sistema debe permitir el registro de nuevos asociados capturando documento de identidad, nombre completo, correo electrónico y edad.
+- RF-01 (Registro): El sistema debe permitir el registro de nuevos asociados capturando documento de identidad, nombre completo, correo electrónico y edad.
 
-RF-02 (Consulta y Búsqueda): Debe permitir listar la totalidad de los asociados o realizar búsquedas específicas por número de documento o nombre.
+- RF-02 (Consulta y Búsqueda): Debe permitir listar la totalidad de los asociados o realizar búsquedas específicas por número de documento o nombre.
 
-RF-03 (Mantenimiento): Debe permitir la actualización de los datos personales y la eliminación (o inactivación) de un asociado existente.
+- RF-03 (Mantenimiento): Debe permitir la actualización de los datos personales y la eliminación (o inactivación) de un asociado existente.
 
 Gestión Financiera y Transaccional
 
-RF-04 (Consignaciones): El sistema debe registrar depósitos incrementando el saldo del asociado y generando la transacción correspondiente.
+- RF-04 (Consignaciones): El sistema debe registrar depósitos incrementando el saldo del asociado y generando la transacción correspondiente.
 
-RF-05 (Retiros): Debe permitir el retiro de fondos previa validación de saldo disponible, calculando comisiones si aplican y actualizando el saldo neto.
+- RF-05 (Retiros): Debe permitir el retiro de fondos previa validación de saldo disponible, calculando comisiones si aplican y actualizando el saldo neto.
 
-RF-06 (Consulta de Saldo y TRM): Debe mostrar el saldo actual del asociado en moneda local y permitir su conversión a dólares (USD) según la TRM.
+- RF-06 (Consulta de Saldo y TRM): Debe mostrar el saldo actual del asociado en moneda local y permitir su conversión a dólares (USD) según la TRM.
 
-RF-07 (Historial de Movimientos): Debe registrar y mostrar el detalle de transacciones (tipo, fecha, hora, monto y tarifa) por cada asociado.
+- RF-07 (Historial de Movimientos): Debe registrar y mostrar el detalle de transacciones (tipo, fecha, hora, monto y tarifa) por cada asociado.
 
 Informes de Gerencia
 
-RF-08 (Consolidado General): Generar reportes con el saldo total en custodia, número total de asociados y saldo promedio.
+- RF-08 (Consolidado General): Generar reportes con el saldo total en custodia, número total de asociados y saldo promedio.
 
-RF-09 (Análisis de Cuentas): Identificar a los 5 asociados con mayor saldo (Top 5) y listar las cuentas inactivas/dormidas (sin movimientos).
+- RF-09 (Análisis de Cuentas): Identificar a los 5 asociados con mayor saldo (Top 5) y listar las cuentas inactivas/dormidas (sin movimientos).
 
-RF-10 (Reportes por Período y Volúmenes): Calcular totales de ingresos/egresos en un rango de fechas (yyyy-MM-dd) y listar los mayores movimientos registrados.
+- RF-10 (Reportes por Período y Volúmenes): Calcular totales de ingresos/egresos en un rango de fechas (yyyy-MM-dd) y listar los mayores movimientos registrados.
 
 2. Requisitos No Funcionales (RNF)
 Rendimiento y Escalabilidad
