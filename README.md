@@ -100,64 +100,28 @@ Para un Sistema de Gestión de Asociados desarrollado en .NET 10 en formato de C
 
  ### Dashboard Principal (Escritorio / Web)
 
- ```
-+----------------------------------------------------------------------------------------------------+
-|  [COOP] Sistema de Gestión de Asociados                                    [Admin] [Cerrar Sesión] |
-+---------------------------------------+------------------------------------------------------------+
-| MENU PRINCIPAL                        | RESUMEN GENERAL (INFORME 1)                                |
-| ------------------------------------- | ---------------------------------------------------------- |
-| [1]  (+) Registrar Asociado           |  +-------------------+ +-----------------+ +-------------+ |
-| [2]  (::) Listar Asociados            |  | Saldo Total       | | Total Asociados | | Promedio    | |
-| [3]  (?) Buscar por Documento         |  | $ 199.000,00      | | 1               | | $ 199.000,00| |
-| [4]  (?) Buscar por Nombre            |  +-------------------+ +-----------------+ +-------------+ |
-| [5]  (EDIT) Actualizar Datos          |                                                            |
-| [6]  (DEL) Eliminar Asociado          | BÚSQUEDA RÁPIDA DE ASOCIADO                                |
-| [7]  ($) Consultar Saldo              | ---------------------------------------------------------- |
-| [8]  (USD) Consultar TRM              | [ Buscar por documento / nombre...                       ] |
-| [9]  [+] Registrar Consignación       |                                                            |
-| [10] [-] Registrar Retiro             | ASOCIADO SELECCIONADO                                      |
-| [11] (REC) Ver Movimientos            | ---------------------------------------------------------- |
-| [12] (REP) Informes Gerenciales       | ID: 1234 | Nombre: Kevin | Email: kevin@gmail.com |Edad: 23|
-| [0]  (X) Salir                        | Saldo Actual: $ 199.000,00                                 |
-+---------------------------------------+------------------------------------------------------------+
-```
+<img width="485" height="651" alt="df3ebf9c-8781-44e7-9b73-b3d7e26f2d7e" src="https://github.com/user-attachments/assets/8cba7291-b8fe-409e-a65f-8a4950de7628" />
 
-### Módulo 11: Historial de Movimientos
-
-```
-+----------------------------------------------------------------------------------------------------+
-|  < Volver al Menú Principal           HISTORIAL DE MOVIMIENTOS                                    |
-+----------------------------------------------------------------------------------------------------+
-|  Asociado: 1234 - Kevin                                       Saldo Actual: 199.000,00 €          |
-+----------------------------------------------------------------------------------------------------+
-| FECHA Y HORA         | TIPO        | MONTO COMPLETO   | COMISIÓN  | SALDO RESULTANTE               |
-| -------------------- | ----------- | ---------------- | --------- | ------------------------------ |
-| 04/09/2026 18:58:33  | Depósito    | + 200.000,00 €   | 0,00 €    | 200.000,00 €                   |
-| 04/09/2026 18:58:49  | Retiro      | - 1.000,00 €     | 0,00 €    | 199.000,00 €                   |
-+----------------------------------------------------------------------------------------------------+
-| [ Imprimir Extracto ]                                                   [ Exportar a PDF / Excel ] |
-+----------------------------------------------------------------------------------------------------+
-```
 
 ### Módulo 12: Informes Gerenciales (Gerencia)
 
-```
-+----------------------------------------------------------------------------------------------------+
-|  INFORMES DE GERENCIA                                                                              |
-+----------------------------------------------------------------------------------------------------+
-|  [1. Resumen General]  [2. Mejores Asociados]  [3. Inactivos]  [4. Período]  [*5. Movimientos]    |
-+----------------------------------------------------------------------------------------------------+
-| FILTROS DE PERÍODO DE TIEMPO                                                                       |
-| Fecha Inicial: [ 2026-09-04 ]    Fecha Final: [ 2026-09-04 ]    [ Aplicar Filtro ]                  |
-| -------------------------------------------------------------------------------------------------- |
-| METRICAS CLAVE                                                                                     |
-| Total Consignaciones: 200.000,00 € (1) | Total Retiros: 1.000,00 € (1) | Balance Neto: 199.000,00 €|
-| -------------------------------------------------------------------------------------------------- |
-| TOP MOVIMIENTOS REGISTRADOS                                                                        |
-|  * 2026-09-04 18:58 | Depósito | 200.000,00 € | Kevin (ID: 1234)                                   |
-|  * 2026-09-04 18:58 | Retiro   |   1.000,00 € | Kevin (ID: 1234)                                   |
-+----------------------------------------------------------------------------------------------------+
-```
+<img width="630" height="729" alt="5fbfe74e-338a-481e-8a45-335476d991ad" src="https://github.com/user-attachments/assets/04acb9f4-b703-4abb-a381-0919de8fcfcf" />
+
+
+### Módulo 11: Historial de Movimientos
+
+<img width="630" height="729" alt="5fbfe74e-338a-481e-8a45-335476d991ad" src="https://github.com/user-attachments/assets/1798dc36-4984-4081-b553-0d66dfb07531" />
+
+
+<img width="630" height="896" alt="1fae65fc-0f6c-4567-aad6-a294c7f352c9" src="https://github.com/user-attachments/assets/4d5cb581-8237-40b8-9b1f-bdd3b0d45df9" />
+
+
+<img width="630" height="866" alt="d8b3a375-1081-42b6-82a3-233f062dc3a6" src="https://github.com/user-attachments/assets/127a1205-5e60-494c-9bc3-7846ecbe5c99" />
+
+<img width="654" height="714" alt="8cc0d910-91c3-4e1f-9036-917b8e903af8" src="https://github.com/user-attachments/assets/8329b95f-c58f-4a59-929d-088c3290c669" />
+
+<img width="654" height="719" alt="a3bb4c95-674f-4dbc-9e88-8f589b1f4698" src="https://github.com/user-attachments/assets/1e0553e0-4c50-48b2-8b10-53686f9b92d9" />
+
 ### Ventanas Emergentes (Modales para Depósito / Retiro)
 #### Modal de Consignación
 ```
